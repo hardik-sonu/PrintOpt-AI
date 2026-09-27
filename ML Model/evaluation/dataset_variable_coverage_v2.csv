@@ -1,0 +1,26 @@
+Variable,Available,Directly_Measured_or_Derived,Potential_Source_Dependence
+Powder_Size_um,True,Measured/Reported,Low/Moderate
+Laser_Spot_um,True,Measured/Reported,Low/Moderate
+Laser_Power_W,True,Measured/Reported,Low/Moderate
+Scanning_Speed_mm_s,True,Measured/Reported,Low/Moderate
+Hatch_Distance_um,True,Measured/Reported,Low/Moderate
+Layer_Thickness_um,True,Measured/Reported,Low/Moderate
+VED_J_mm3,True,Derived,Low/Moderate
+Scan_Strategy,False,Not available,Potentially High
+Build_Orientation,False,Not available,Potentially High
+Preheat_Build_Temperature,False,Not available,Potentially High
+Atmosphere,False,Not available,Potentially High
+Powder_Chemistry,False,Not available,Potentially High
+Powder_Morphology,False,Not available,Potentially High
+Powder_Size_Distribution,False,Not available,Potentially High
+Machine_System,False,Not available,Potentially High
+Laser_Wavelength,False,Not available,Potentially High
+Laser_Profile,False,Not available,Potentially High
+Heat_Treatment,False,Not available,Potentially High
+Cooling_History,False,Not available,Potentially High
+Microstructure,False,Not available,Potentially High
+Porosity_Defects,False,Not available,Potentially High
+Surface_Roughness,False,Not available,Potentially High
+Hardness,False,Not available,Potentially High
+Tensile_Test_Method,False,Not available,Potentially High
+Specimen_Geometry,False,Not available,Potentially High

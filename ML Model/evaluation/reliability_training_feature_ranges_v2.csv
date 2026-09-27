@@ -1,0 +1,8 @@
+Feature,Train_Min,Train_Max
+Powder_Size_um,27.0,60.0
+Laser_Spot_um,55.0,200.0
+Laser_Power_W,50.0,500.0
+Scanning_Speed_mm_s,220.0,2000.0
+Hatch_Distance_um,50.0,180.0
+Layer_Thickness_um,20.0,80.0
+VED_J_mm3,27.77777777777777,378.7878787878788

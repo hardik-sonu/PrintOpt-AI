@@ -1,0 +1,19 @@
+Variable,Status,Description
+Scan_Strategy,NOT_AVAILABLE,Raster/stripe/island/contour strategy and scan rotation.
+Build_Orientation,NOT_AVAILABLE,Part orientation relative to the build direction.
+Preheat_Build_Temperature,NOT_AVAILABLE,Powder-bed/build-platform preheating conditions.
+Atmosphere,NOT_AVAILABLE,"Chamber gas, oxygen level and other atmosphere conditions."
+Powder_Chemistry,NOT_AVAILABLE,Detailed Ti-6Al-4V powder chemical composition.
+Powder_Morphology,NOT_AVAILABLE,"Particle shape, sphericity, morphology and flowability."
+Powder_Size_Distribution,NOT_AVAILABLE,Full particle-size distribution rather than a single powder-size value.
+Machine_System,NOT_AVAILABLE,Machine/manufacturer/platform and laser/system characteristics.
+Laser_Wavelength,NOT_AVAILABLE,Laser wavelength where relevant.
+Laser_Profile,NOT_AVAILABLE,Laser mode/profile and detailed beam characteristics.
+Heat_Treatment,NOT_AVAILABLE,Post-build heat treatment or HIP conditions.
+Cooling_History,NOT_AVAILABLE,Cooling conditions/history during and after fabrication.
+Microstructure,NOT_AVAILABLE,"Phase, grain morphology, alpha/beta structure and texture."
+Porosity_Defects,NOT_AVAILABLE,"Porosity, lack-of-fusion, keyhole or other defect information."
+Surface_Roughness,NOT_AVAILABLE,Surface roughness measurements such as Ra.
+Hardness,NOT_AVAILABLE,Vickers or other hardness measurements.
+Tensile_Test_Method,NOT_AVAILABLE,"Specimen standard, strain rate, test direction and methodology."
+Specimen_Geometry,NOT_AVAILABLE,Detailed specimen dimensions and geometry.

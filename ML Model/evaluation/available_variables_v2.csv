@@ -1,0 +1,11 @@
+Variable,Status,Type,Missing_Count,Unique_Values
+Powder_Size_um,AVAILABLE,Process / derived process feature,0,21
+Laser_Spot_um,AVAILABLE,Process / derived process feature,0,10
+Laser_Power_W,AVAILABLE,Process / derived process feature,0,61
+Scanning_Speed_mm_s,AVAILABLE,Process / derived process feature,0,55
+Hatch_Distance_um,AVAILABLE,Process / derived process feature,0,16
+Layer_Thickness_um,AVAILABLE,Process / derived process feature,0,6
+VED_J_mm3,AVAILABLE,Process / derived process feature,0,142
+UTS_MPa,AVAILABLE,Mechanical-property target,0,138
+YS_MPa,AVAILABLE,Mechanical-property target,0,150
+Elongation_pct,AVAILABLE,Mechanical-property target,0,134

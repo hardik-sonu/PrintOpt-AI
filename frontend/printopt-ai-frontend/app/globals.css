@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --green: #76B900;
+  --bg: #0f1012;
+  --surface: #16181c;
+  --surface-elevated: #12141a;
+  --border: #1f2229;
+  --border-subtle: #181b20;
+  --text-primary: #f0f2f5;
+  --text-secondary: #c8cdd6;
+  --text-muted: #6b7280;
+  --text-dim: #4b505b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bg);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent horizontal overflow from charts, tables, and navigation */
+body {
+  overflow-x: hidden;
+}
+
+/* Selection */
+::selection {
+  background: rgba(118, 185, 0, 0.22);
+  color: #f0f2f5;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1012;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2d35;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3d47;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a2d35 #0f1012;
+}
+
+/* Number input arrows */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  opacity: 0.3;
+}
+
+/* Focus ring */
+.focus-ring:focus-visible {
+  outline: 2px solid #76B900;
+  outline-offset: 2px;
+}
+
+/* Default interactive focus */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid rgba(118, 185, 0, 0.75);
+  outline-offset: 2px;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th {
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #5a5f6b;
+  white-space: nowrap;
+}
+
+.data-table td {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.data-table tr:hover td {
+  background: #1a1d24;
+}
+
+/* Numeric / engineering values */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle engineering divider */
+.engineering-divider {
+  height: 1px;
+  background: #1f2229;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* Remove default button appearance */
+button {
+  font: inherit;
+}
+
+/* Smooth transitions for interactive elements */
+button,
+a,
+input,
+select,
+textarea {
+  transition:
+    border-color 150ms ease,
+    background-color 150ms ease,
+    color 150ms ease,
+    opacity 150ms ease;
+}
+
+/* Recharts / chart containers */
+.recharts-wrapper,
+.recharts-responsive-container {
+  outline: none;
+}
+
+/* Prevent chart tooltip text from inheriting unwanted styling */
+.recharts-tooltip-wrapper {
+  outline: none;
+}
+
+/* Privacy-policy / long-form content */
+.policy-content p {
+  max-width: 760px;
+}
+
+/* Mobile foundation */
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .data-table {
+    min-width: 720px;
+  }
+}

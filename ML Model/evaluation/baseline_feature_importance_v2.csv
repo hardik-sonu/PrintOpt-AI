@@ -1,0 +1,43 @@
+Model,Target,Feature,Importance
+Random Forest V2,UTS_MPa,Powder_Size_um,0.19973185004688845
+Random Forest V2,UTS_MPa,Laser_Spot_um,0.23411921443280792
+Random Forest V2,UTS_MPa,Laser_Power_W,0.06967903691745815
+Random Forest V2,UTS_MPa,Scanning_Speed_mm_s,0.08843476906445304
+Random Forest V2,UTS_MPa,Hatch_Distance_um,0.21710678110314607
+Random Forest V2,UTS_MPa,Layer_Thickness_um,0.07747145252267638
+Random Forest V2,UTS_MPa,VED_J_mm3,0.1134568959125701
+Random Forest V2,YS_MPa,Powder_Size_um,0.37389379603989253
+Random Forest V2,YS_MPa,Laser_Spot_um,0.048081595433436534
+Random Forest V2,YS_MPa,Laser_Power_W,0.11767683441132483
+Random Forest V2,YS_MPa,Scanning_Speed_mm_s,0.15146207813683438
+Random Forest V2,YS_MPa,Hatch_Distance_um,0.13031584861012618
+Random Forest V2,YS_MPa,Layer_Thickness_um,0.02401817178266748
+Random Forest V2,YS_MPa,VED_J_mm3,0.15455167558571808
+Random Forest V2,Elongation_pct,Powder_Size_um,0.09601543205533697
+Random Forest V2,Elongation_pct,Laser_Spot_um,0.10515319309282956
+Random Forest V2,Elongation_pct,Laser_Power_W,0.22483371923832082
+Random Forest V2,Elongation_pct,Scanning_Speed_mm_s,0.21141006579085123
+Random Forest V2,Elongation_pct,Hatch_Distance_um,0.07286951282988827
+Random Forest V2,Elongation_pct,Layer_Thickness_um,0.04288764632853431
+Random Forest V2,Elongation_pct,VED_J_mm3,0.24683043066423868
+XGBoost V2,UTS_MPa,Powder_Size_um,0.11412296444177628
+XGBoost V2,UTS_MPa,Laser_Spot_um,0.3717491328716278
+XGBoost V2,UTS_MPa,Laser_Power_W,0.0645039901137352
+XGBoost V2,UTS_MPa,Scanning_Speed_mm_s,0.07287226617336273
+XGBoost V2,UTS_MPa,Hatch_Distance_um,0.14486908912658691
+XGBoost V2,UTS_MPa,Layer_Thickness_um,0.17467069625854492
+XGBoost V2,UTS_MPa,VED_J_mm3,0.05721191316843033
+XGBoost V2,YS_MPa,Powder_Size_um,0.24122849106788635
+XGBoost V2,YS_MPa,Laser_Spot_um,0.1327749490737915
+XGBoost V2,YS_MPa,Laser_Power_W,0.14356739819049835
+XGBoost V2,YS_MPa,Scanning_Speed_mm_s,0.13188734650611877
+XGBoost V2,YS_MPa,Hatch_Distance_um,0.13679756224155426
+XGBoost V2,YS_MPa,Layer_Thickness_um,0.1177557110786438
+XGBoost V2,YS_MPa,VED_J_mm3,0.09598860889673233
+XGBoost V2,Elongation_pct,Powder_Size_um,0.12466340512037277
+XGBoost V2,Elongation_pct,Laser_Spot_um,0.2240639477968216
+XGBoost V2,Elongation_pct,Laser_Power_W,0.12524764239788055
+XGBoost V2,Elongation_pct,Scanning_Speed_mm_s,0.1358165293931961
+XGBoost V2,Elongation_pct,Hatch_Distance_um,0.13726317882537842
+XGBoost V2,Elongation_pct,Layer_Thickness_um,0.13180072605609894
+XGBoost V2,Elongation_pct,VED_J_mm3,0.12114457041025162

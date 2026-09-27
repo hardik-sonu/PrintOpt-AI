@@ -1,0 +1,12 @@
+Experiment_ID,Source_ID,Flags,UTS_MPa,YS_MPa,Elongation_pct,VED_J_mm3,Verification_Note
+1,REF_01,HIGH_VED,1117.0,967.0,8.9,139.55555555555554,VED above 95th percentile (137.460 J/mm³); domain-extreme record retained.
+12,REF_04,YS_GT_UTS,1065.0,1241.0,6.0,93.33333333333331,Yield strength exceeds UTS; original source verification required.
+25,REF_08,HIGH_VED,948.0,798.0,8.0,378.7878787878788,VED above 95th percentile (137.460 J/mm³); domain-extreme record retained.
+51,REF_17,HIGH_VED,1268.0,1053.0,4.4,138.57142857142856,VED above 95th percentile (137.460 J/mm³); domain-extreme record retained.
+52,REF_17,HIGH_VED,1310.0,1128.0,5.4,230.9523809523809,VED above 95th percentile (137.460 J/mm³); domain-extreme record retained.
+63,REF_23,YS_GT_UTS; POSSIBLE_UTS_YS_SWAP; HIGH_VED,1204.38,1346.21,11.4,142.85714285714286,Possible UTS/YS column-order issue identified during source verification; values intentionally unchanged pending direct verification of the original source table. VED above 95th percentile (137.460 J/mm³); domain-extreme record retained.
+64,REF_24,YS_GT_UTS; REF24_SOURCE_REVIEW,1484.9,1550.0,2.6,83.33333333333334,REF_24 record requires direct source verification; YS exceeds UTS and target value should not be altered without checking the original source.
+66,REF_24,YS_GT_UTS; REF24_SOURCE_REVIEW; HIGH_VED,1305.6,1350.0,1.6,138.8888888888889,REF_24 record requires direct source verification; YS exceeds UTS and target value should not be altered without checking the original source. VED above 95th percentile (137.460 J/mm³); domain-extreme record retained.
+67,REF_24,HIGH_VED,1241.9,1180.0,2.4,166.66666666666669,VED above 95th percentile (137.460 J/mm³); domain-extreme record retained.
+68,REF_24,YS_GT_UTS; REF24_SOURCE_REVIEW; HIGH_VED,1200.7,1600.0,5.9,185.1851851851852,REF_24 record requires direct source verification; YS exceeds UTS and target value should not be altered without checking the original source. VED above 95th percentile (137.460 J/mm³); domain-extreme record retained.
+69,REF_24,YS_GT_UTS; REF24_SOURCE_REVIEW; HIGH_VED,1264.1,1700.0,8.0,138.88888888888889,REF_24 record requires direct source verification; YS exceeds UTS and target value should not be altered without checking the original source. VED above 95th percentile (137.460 J/mm³); domain-extreme record retained.
