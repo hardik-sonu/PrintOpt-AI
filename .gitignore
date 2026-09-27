@@ -4,3 +4,6 @@ ML Model/.venv/
 ML Model/.venv/
 
 .git-backup/
+
+__pycache__/
+*.py[cod]
