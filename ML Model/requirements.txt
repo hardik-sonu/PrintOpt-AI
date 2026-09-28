@@ -1,9 +1,7 @@
+fastapi
+uvicorn[standard]
 pandas
 numpy
-openpyxl
 scikit-learn
-matplotlib
-seaborn
-xgboost
 joblib
-jupyter
+xgboost
