@@ -28,7 +28,7 @@ interface SourceRecord {
 
 const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ??
-  'http://127.0.0.1:8000';
+  'https://printopt-ai-production.up.railway.app';
 
 function isLabSource(source: SourceRecord) {
   return source.id === 'LAB';

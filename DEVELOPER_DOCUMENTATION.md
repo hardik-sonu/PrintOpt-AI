@@ -137,7 +137,7 @@ C:\Users\Ahmadcomputer\.gemini\antigravity\scratch\PrintOpt AI\frontend\printopt
 Current value:
 
 ``` env
-NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
+NEXT_PUBLIC_API_URL=https://printopt-ai-production.up.railway.app
 ```
 
 The frontend API service reads this variable instead of hardcoding the

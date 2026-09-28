@@ -19,7 +19,7 @@ import { StatusBanner } from '@/components/layout/StatusBanner';
 
 const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ??
-  'http://127.0.0.1:8000';
+  'https://printopt-ai-production.up.railway.app';
 
 interface DatasetRecord {
   record_id: string;
