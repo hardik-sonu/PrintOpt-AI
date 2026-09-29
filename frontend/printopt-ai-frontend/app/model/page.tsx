@@ -11,7 +11,7 @@ import {
 import { PageHeader } from '@/components/layout/PageHeader';
 import { Card } from '@/components/ui/Card';
 import { StatusBanner } from '@/components/layout/StatusBanner';
-import { Badge } from '@/components/ui/Badge';
+
 
 interface ModelMetric {
   model_name: string;
@@ -124,23 +124,7 @@ function getMetric(
   );
 }
 
-function getFeatureImportance(
-  importance: FeatureImportance[],
-  target: string
-) {
-  return importance
-    .filter(
-      (item) =>
-        item.model_name === 'Random Forest V2' &&
-        item.target === target &&
-        item.importance !== null
-    )
-    .sort(
-      (a, b) =>
-        (b.importance ?? 0) -
-        (a.importance ?? 0)
-    );
-}
+
 
 export default function ModelPage() {
   const [metrics, setMetrics] = useState<ModelMetric[]>([]);
